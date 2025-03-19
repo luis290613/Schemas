@@ -1,6 +1,6 @@
 //
 //  AppDelegate.swift
-//  Schemas
+//  MyApp
 //
 //  Created by Luis Diego Ruiz Bautista on 19/03/25.
 //

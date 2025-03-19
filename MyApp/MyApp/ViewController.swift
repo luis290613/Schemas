@@ -1,6 +1,6 @@
 //
 //  ViewController.swift
-//  Schemas
+//  MyApp
 //
 //  Created by Luis Diego Ruiz Bautista on 19/03/25.
 //
@@ -11,7 +11,9 @@ class ViewController: UIViewController {
 
     override func viewDidLoad() {
         super.viewDidLoad()
-        // Do any additional setup after loading the view.
+        
+        view.backgroundColor = .gray
+        print("Hello World")
     }
 
 
