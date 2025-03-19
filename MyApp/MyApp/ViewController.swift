@@ -13,9 +13,27 @@ class ViewController: UIViewController {
         super.viewDidLoad()
         
         view.backgroundColor = .gray
-        print("Hello World")
+        setupSchemas()
     }
-
-
+    
+    func setupSchemas() {
+        if let apiBaseUrl = Bundle.main.infoDictionary?["API_BASE_URL"] as? String {
+            print("API Base URL: \(apiBaseUrl)")
+        } else {
+            print("⚠️ Error: API_BASE_URL no encontrada")
+        }
+        
+//        if let keyBaseUrl = Bundle.main.infoDictionary?["KEY_BASE_URL"] as? String {
+//            print("Key Base URL: \(keyBaseUrl)")
+//        } else {
+//            print("⚠️ Error: KEY_BASE_URL no encontrada")
+//        }
+        
+        if let productName = Bundle.main.infoDictionary?["PRODUCTO_NAME"] as? String {
+            print("Key PRODUCT_NAME: \(productName)")
+        } else {
+            print("⚠️ Error: PRODUCT_NAME no encontrada")
+        }
+    }
 }
 

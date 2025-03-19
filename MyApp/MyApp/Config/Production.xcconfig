@@ -1,0 +1,14 @@
+//
+//  Production.xcconfig
+//  MyApp
+//
+//  Created by Luis Diego Ruiz Bautista on 19/03/25.
+//
+
+// Configuration settings file format documentation can be found at:
+// https://help.apple.com/xcode/#/dev745c5c974
+
+API_BASE_URL = "api.example.com"
+KEY_BASE_URL = "prod-key"
+PRODUCTO_NAME = "MiApp"
+
